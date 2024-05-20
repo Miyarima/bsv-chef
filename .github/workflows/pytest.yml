@@ -37,3 +37,7 @@ jobs:
         run: |
           python -m pytest -m unit
       
+      - name: Run all exam test
+        run: |
+          python -m pytest -m exam
+      
